@@ -20,7 +20,14 @@ let multiValues = [car, van, myNumber, myString, myNumber + myString, myMessage]
 
 console.log(multiValues);
 
-let carExamples = ["Mercedes", "Ford", "Mazda", "Porsche", "BMW"];
+let carExamples = [
+    "Mercedes", 
+    "Ford", 
+    "Mazda", 
+    "Porsche", 
+    "BMW"
+];
+
 console.log(carExamples);
 console.log(carExamples[3]);
 
