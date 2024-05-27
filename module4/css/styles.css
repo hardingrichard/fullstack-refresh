@@ -19,3 +19,8 @@ h1 {
 body main div {
     color: white;
 }
+
+footer {
+    background-color: rgb(23, 216, 126);
+    color: #6920dd;
+}
