@@ -14,3 +14,7 @@ h1 {
 .accent {
     background-color: yellow;
 }
+
+body main div {
+    color: white;
+}
