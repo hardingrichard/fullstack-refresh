@@ -6,3 +6,11 @@ h2 {
 h1 {
     background-color: white;
 }
+
+#container {
+    color: yellow;
+}
+
+.accent {
+    background-color: yellow;
+}
