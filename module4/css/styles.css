@@ -1,6 +1,9 @@
 h2 {
-    color: white;
+    color: yellow;
     background-color: red;
+    font-family: Arial, "Comic Sans", Calibri;
+    font-size: 3em; /* Font sized relative to the parent element */
+    text-align: center; /* This will align elements in the center */
 }
 
 h1 {
