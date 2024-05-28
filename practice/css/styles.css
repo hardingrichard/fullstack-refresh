@@ -1,0 +1,14 @@
+html {
+    background-color: black;
+}
+
+nav ul li a {
+    color: lightblue;
+}
+
+body {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid yellow;
+}
