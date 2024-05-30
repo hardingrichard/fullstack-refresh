@@ -69,3 +69,27 @@ footer {
         border-radius: 1em;
     }
 }
+/* End tablet */
+
+/* Desktop query */
+@media screen and (min-width: 1025px) {
+
+    header {
+        text-align: left; /* Align the header to the left */
+    }
+
+    header img {
+        width: auto;
+        height: 15em;
+    }
+
+    nav {
+        float: right; /* Float the nav bar to the right */
+        margin-top: -10em; /* Move the nav bar up */
+        width: 55%;
+    }
+    nav ul li {
+        display: inline-block; /* Display the list items in a row */
+        border-radius: 1em;
+    }
+}
