@@ -50,6 +50,9 @@ footer {
 
 /* Mobile first */
 @media screen and (max-width: 640px) {
+    nav ul li {
+        border-radius: 1em;
+    }
 
 }
 /* End mobile */
