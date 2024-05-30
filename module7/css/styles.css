@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(black, white);
+}
+
+header img {
+    width: 100%; /* 100% of the width of the viewport */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 800px;
+}
+
+nav {
+    border-top: solid 0.3em #000;
+    border-bottom: solid 0.3em #000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+main {
+    margin-top: 1em;
+    border-top: solid 0.3em #000;
+    border-bottom: solid 0.3em #000;
+    border-radius: 1em;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: solid 0.3em #000;
+    border-bottom: solid 0.3em #000;
+    border-radius: 1em;
+}
