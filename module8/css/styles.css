@@ -103,6 +103,10 @@ footer {
     .tablet {
         display: none; /* Hide the figure image for mobile viewport */
     }
+
+    .desktop {
+        display: none; /* Hide the figure image for mobile viewport */
+    }
 }
 /* End mobile */
 
