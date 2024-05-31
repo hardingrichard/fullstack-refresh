@@ -57,6 +57,35 @@ main {
     border-radius: 1em;
 }
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both; /* Clear the float */
+}
+
+div .column {
+    float: left; /* Float the columns to the left */
+}
+
+div .left {
+    width: 20%;
+    padding: 10px;
+    float: left; /* Float the column to the left */
+    border-right: solid 3px #000;
+}
+
+div .center {
+    padding: 10px;
+    width: 35%;
+}
+
+div .right {
+    padding: 10px;
+    width: 30%;
+    float: right; /* Float the column to the right */
+    border-left: solid 3px #000;
+}
+
 footer {
     background-color: white;
     margin-top: 1em;
