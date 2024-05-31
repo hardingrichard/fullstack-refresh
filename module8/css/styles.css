@@ -37,6 +37,18 @@ nav ul li a {
     text-decoration: none;
 }
 
+figure {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
+
+figure img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
 main {
     background-color: white;
     margin-top: 1em;
