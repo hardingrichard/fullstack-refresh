@@ -116,6 +116,10 @@ footer {
         display: inline-block; /* Display the list items in a row */
         border-radius: 1em;
     }
+
+    .desktop {
+        display: none; /* Hide the figure image for tablet viewport */
+    }
 }
 /* End tablet */
 
