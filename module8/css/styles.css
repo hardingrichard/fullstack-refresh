@@ -115,6 +115,14 @@ footer {
     .desktop {
         display: none; /* Hide the figure image for tablet viewport */
     }
+
+    div .left {
+        width: 40%;
+    }
+
+    div .center {
+        width: 50%;
+    }
 }
 /* End tablet */
 
