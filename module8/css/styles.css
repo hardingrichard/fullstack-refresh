@@ -9,10 +9,6 @@ header img {
 }
 
 nav {
-    background-color: white;
-    border-top: solid 0.3em #000;
-    border-bottom: solid 0.3em #000;
-
     font-weight: bold;
     text-align: center;
 }
@@ -76,7 +72,6 @@ div .left {
 
 div .center {
     padding: 10px;
-    width: 35%;
 }
 
 div .right {
@@ -143,5 +138,10 @@ footer {
     nav ul li {
         display: inline-block; /* Display the list items in a row */
         border-radius: 1em;
+    }
+
+    div .center {
+        padding: 10px;
+        width: 35%;
     }
 }
