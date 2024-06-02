@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav ul li {
-    background-color: rgb(163, 63, 20);
+    background-color: sienna;
     padding: 1em;
     min-width: 12%;
     margin: 0.25em;
@@ -135,22 +135,36 @@ footer {
     header {
         text-align: left; /* Align the header to the left */
         margin: -1em 0 0 0; /* Move the header up */
-        background-image: linear-gradient(to right, white, grey)
+        background-image: linear-gradient(to right, white, grey);
     }
 
     header img {
-        width: auto;
-        height: 15em;
+        width: 30%;
+        height: 10em;
+    }
+
+    .desktop {
+        display: block; /* Display the figure image for desktop viewport */
     }
 
     nav {
+        background-color: sienna;
         float: right; /* Float the nav bar to the right */
-        margin-top: -10em; /* Move the nav bar up */
+        margin-top: -8em; /* Move the nav bar up */
         width: 55%;
+        border-radius: 1.5em 0 0 1.5em;
+        padding: 1em 0 1em 0;
+        text-align: right;
+        box-shadow: 0 0 0.5em black;
     }
+
     nav ul li {
         display: inline-block; /* Display the list items in a row */
-        border-radius: 1em;
+        padding: 1em 0.75em 1em 0;
+        min-width: 12%;
+        margin: 0.2em;
+        list-style-type: none;
+        box-shadow: none;
     }
 
     div .center {
