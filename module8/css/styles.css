@@ -6,6 +6,7 @@ header img {
     width: 100%; /* 100% of the width of the viewport */
     height: auto; /* Maintain the aspect ratio */
     max-width: 800px;
+    box-shadow: 0 0 0.5em black;
 }
 
 nav {
@@ -24,7 +25,7 @@ nav ul li {
     padding: 1em;
     min-width: 12%;
     margin: 0.25em;
-
+    box-shadow: 0 0 0.5em black;
     list-style-type: none;
 }
 
@@ -37,6 +38,7 @@ figure {
     text-align: center;
     background-color: white;
     margin: 0;
+    box-shadow: 0 0 0.5em black;
 }
 
 figure img {
@@ -51,6 +53,7 @@ main {
     border-top: solid 0.3em #000;
     border-bottom: solid 0.3em #000;
     border-radius: 1em;
+    box-shadow: 0 0 0.5em black
 }
 
 .row:after {
