@@ -48,11 +48,13 @@ figure img {
     height: auto;
 }
 
+/* 3 column layout */
 main {
     background-color: white;
     margin-top: 1em;
     border-radius: 1em;
-    box-shadow: 0 0 0.5em black
+    box-shadow: 0 0 0.5em black;
+    padding-bottom: 2%;
 }
 
 .row:after {
@@ -82,6 +84,39 @@ div .right {
     float: right; /* Float the column to the right */
     border-left: solid 3px #000;
 }
+/* 3 column layout ends */
+
+/* Classes table begins */
+.schedule {
+    margin-bottom: 2%;
+}
+
+table {
+    border: 0.1em solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+}
+
+th, td {
+    border: solid 0.1em black;
+    padding: 0.5em;
+    text-align: center;;
+}
+
+th {
+    background-color: sienna;
+    color: white;
+}
+/* Classes table ends */
 
 footer {
     background-color: white;
