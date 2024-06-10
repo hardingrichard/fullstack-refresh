@@ -86,6 +86,8 @@ div .right {
 }
 /* 3 column layout ends */
 
+
+/* Classes Page */
 /* Classes table begins */
 .schedule {
     margin-bottom: 2%;
@@ -99,7 +101,7 @@ div .right {
     margin-bottom: 2.5%;
 }
 
-caption {
+.schedule caption {
     font-size: 1.5em;
     font-weight: bold;
     margin-top: 2.5%;
@@ -119,20 +121,102 @@ caption {
 /* Classes table ends */
 
 
-/* Contact Page */
+/* Booking Page */
 
-/* Contact form */
-form {
+/* Booking form table */
+#bookingform {
     margin: 2%;
     padding: 2%;
 }
 
-form label {
+#bookingform h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+form #contacttable td {
+    padding-right: 1em;
+}
+
+#courseprice caption {
+    font-weight: bold;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+}
+
+#courseprice {
+    border: solid 0.1em black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#courseprice th {
+    background-color: sienna;
+    color: white;
+}
+
+#courseprice th, #courseprice td {
+    border: solid 0.1em black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.buttoncontainer {
+    text-align: center;
+}
+
+.bookingbutton {
+    width: 30%; 
+}
+
+#bookingform input[type="submit"] {
+    background-color: sienna;
+    color: white;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: 2em;
+    border: solid 0.1em black;
+    border-radius: 0.5em;
+}
+
+#bookingform input[type="submit"]:hover {
+    background-color: white;
+    color: sienna;
+    border: solid 0.1em sienna;
+}
+
+#bookingform input[type="reset"] {
+    background-color: sienna;
+    color: white;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: 2em;
+    border: solid 0.1em black;
+    border-radius: 0.5em;
+}
+
+#bookingform input[type="reset"]:hover {
+    background-color: white;
+    color: sienna;
+    border: solid 0.1em sienna;
+}
+/* Booking form table ends */
+
+
+/* Contact Page */
+
+/* Contact form */
+#contactform {
+    margin: 2%;
+    padding: 2%;
+}
+
+#contactform label {
     display: inline-block;
     margin-bottom: 0.75em;
 }
 
-form h2 {
+#contactform h2 {
     text-align: center;
     margin-bottom: 1em;
 }
