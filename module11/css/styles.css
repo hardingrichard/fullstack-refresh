@@ -166,7 +166,8 @@ form #contacttable td {
 }
 
 .bookingbutton {
-    width: 30%; 
+    width: 30%;
+    font-weight: bold;
 }
 
 #bookingform input[type="submit"] {
