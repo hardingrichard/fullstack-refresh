@@ -23,7 +23,30 @@
         </nav>
 
         <main>
-            <p>This is the main element</p>
+            <form action="">
+                <h2>Get in touch!</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name"><br>
+
+                <label for="email">Email</label>
+                <input type="text" id="email"><br>
+
+                <label for="course" id="course">Course</label>
+                <select name="course">
+                    <option value="none">Select a course</option>
+                    <option value="puppy">Puppy Training</option>
+                    <option value="obedience">Obedience Training</option>
+                    <option value="agility">Agility Training</option>
+                    <option value="protection">Protection Training</option>
+                    <option value="therapy">Therapy Training</option>
+                    <option value="service">Service Training</option>
+                    <option value="search">Search and Rescue Training</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <textarea name="textarea" id="textarea" cols="50" rows="10">Type your message here...</textarea><br>
+                <input type="submit" id="submit" value="submit">
+            </form>
         </main>
 
         <footer>
