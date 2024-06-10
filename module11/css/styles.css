@@ -116,6 +116,25 @@ th {
     background-color: sienna;
     color: white;
 }
+
+/* Contact Page */
+
+/* Contact form */
+form {
+    margin: 2%;
+    padding: 2%;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 0.75em;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 /* Classes table ends */
 
 footer {
