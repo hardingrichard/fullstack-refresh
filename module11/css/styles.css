@@ -106,7 +106,7 @@ caption {
     margin-bottom: 2%;
 }
 
-.schedule th, td {
+.schedule th, .schedule td {
     border: solid 0.1em black;
     padding: 0.5em;
     text-align: center;;
