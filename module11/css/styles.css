@@ -91,7 +91,7 @@ div .right {
     margin-bottom: 2%;
 }
 
-table {
+.schedule table {
     border: 0.1em solid black;
     border-collapse: collapse;
     width: 95%;
@@ -106,16 +106,18 @@ caption {
     margin-bottom: 2%;
 }
 
-th, td {
+.schedule th, td {
     border: solid 0.1em black;
     padding: 0.5em;
     text-align: center;;
 }
 
-th {
+.schedule th {
     background-color: sienna;
     color: white;
 }
+/* Classes table ends */
+
 
 /* Contact Page */
 
@@ -134,9 +136,9 @@ form h2 {
     text-align: center;
     margin-bottom: 1em;
 }
+/* Contact form ends */
 
-/* Classes table ends */
-
+/* Footer */
 footer {
     background-color: white;
     margin-top: 1em;
