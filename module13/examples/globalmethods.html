@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Global Methods</title>
 
     <script type="text/javascript">
-        
+        function submitForm() {
+
+            let aNumber = 1;
+            let aFloat = 42.75;
+            let aString = "Hello, World!";
+            let bString = "Goodbye, World!";
+            let cString = "89";
+            let dString = "42.5";
+            let aBoolean = true;
+            let anArray = [1, 2, 3];
+            let anObject = {name: "Rich", age: 34};
+            let aNull = null;
+            let anUndefined = undefined;
+
+            alert(
+                "Number: " + aNumber + "\n" +
+                "Float: " + aFloat + "\n" +
+                "String: " + aString + "\n" +
+                "String: " + bString + "\n" +
+                "String: " + cString + "\n" +
+                "String: " + dString + "\n" +
+                "Boolean: " + aBoolean + "\n" +
+                "Array: " + anArray + "\n" +
+                "Object: " + anObject.name + " is " + anObject.age + " years old." + "\n" +
+                "Null: " + aNull + "\n" +
+                "Undefined: " + anUndefined + "\n" +
+                "parseInt: " + (aNumber + parseInt(cString)) + "\n" +
+                "parseFloat: " + (aFloat + parseFloat(dString)) + "\n" +
+
+                "Form submitted!"
+                );
+        }
     </script>
 </head>
 <body>
@@ -20,7 +51,7 @@
     </header>
     <main>
 
-        <input type="submit" value="submit" id="submit" onclick="">
+        <input type="submit" value="submit" id="submit" onclick="submitForm()">
         
     </main>
     <footer>
