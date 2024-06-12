@@ -6,7 +6,31 @@
     <title>Data Types</title>
 
     <script type="text/javascript">
-        
+        function submitForm() {
+
+            let aNumber = 1;
+            let aString = "Hello, World!";
+            let bString = "Goodbye, World!";
+            let aBoolean = true;
+            let anArray = [1, 2, 3];
+            let anObject = {name: "Rich", age: 34};
+            let aNull = null;
+            let anUndefined = undefined;
+
+            alert(
+                "Number: " + aNumber + "\n" +
+                "String: " + aString + "\n" +
+                "String: " + bString + "\n" +
+                "Boolean: " + aBoolean + "\n" +
+                "Array: " + anArray + "\n" +
+                "Object: " + anObject.name + " is " + anObject.age + " years old." + "\n" +
+                "Null: " + aNull + "\n" +
+                "Undefined: " + anUndefined + "\n" +
+                
+                "Form submitted!"
+                );
+        }
+
     </script>
 </head>
 <body>
@@ -30,7 +54,7 @@
         </ul>
         <p>These are just a few examples of the data types in JavaScript. There are many more, and you can learn more about them in the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">MDN Web Docs</a>.</p>
         
-        <input type="submit" value="submit" id="submit" onclick="">
+        <input type="submit" value="submit" id="submit" onclick="submitForm()">
         
     </main>
     <footer>
