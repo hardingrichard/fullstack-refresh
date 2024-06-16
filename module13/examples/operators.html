@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Operators page</title>
 
     <script type="text/javascript">
+        function submitForm () {
+            let aNumber = 1;
+            let bNumber = 5;
+            let cNumber = 10;
+            
+            // Assignment operators
+            aNumber += 2;
+            alert("The value of aNumber after the += operator is " + aNumber);
+
+            bNumber -= 2;
+            alert("The value of bNumber after the -= operator is " + bNumber);
+
+            cNumber *= 2;
+            alert("The value of cNumber after the *= operator is " + cNumber);
+
+            cNumber /= 4;
+            alert("The value of cNumber after the /= operator is " + cNumber);
+
+            // Comparison operators
+            if (aNumber == bNumber) {
+                alert("aNumber is equal to bNumber");
+            }
+
+            aNumber = 5;
+            
+            if (aNumber >= cNumber) {
+                alert("aNumber is greater than or equal to cNumber");
+            }
+
+            aNumber = 1;
+
+            if (aNumber <= cNumber) {
+                alert("aNumber is less than or equal to cNumber");
+            }
+
+            if (aNumber != bNumber) {
+                alert("aNumber is not equal to bNumber");
+            }
+        }
         
     </script>
 </head>
@@ -23,7 +62,7 @@
     </header>
     <main>
 
-        <input type="submit" value="submit" id="submit" onclick="">
+        <input type="submit" value="submit" id="submit" onclick="submitForm()">
         
     </main>
     <footer>
