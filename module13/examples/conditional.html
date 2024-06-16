@@ -6,7 +6,30 @@
     <title>Conditional page</title>
 
     <script type="text/javascript">
-        
+
+        function submitForm() {
+            var varExample = 1;
+            let letExample = "2";
+            const constExample = 3;
+            let aBoolean = false;
+
+            if (aBoolean) {
+                alert(aBoolean + " The first if statement is true");
+            }
+            else {
+                alert("The else statement executes because if is False");
+            }
+            
+            aBoolean = true;
+
+            if (aBoolean) {
+                alert("The second if statement is true");
+            }
+            else if (aBoolean) {
+                alert("The else if statement is false");
+            }
+
+        }
     </script>
 </head>
 <body>
@@ -21,7 +44,7 @@
     </header>
     <main>
 
-        <input type="submit" value="submit" id="submit" onclick="">
+        <input type="submit" value="submit" id="submit" onclick="submitForm()">
         
     </main>
     <footer>
