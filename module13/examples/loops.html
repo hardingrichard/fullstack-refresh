@@ -12,13 +12,27 @@
             //for (initialization; condition; increment) { }
             
             let aNumber = 1;
-            let bNumber = 10;
-            let cNumber = 5;
+            let bNumber = 5;
+            let cNumber = 10;
+
+            for (i = 0; i <= cNumber; i++) {
+                alert("The value of i in the for loop is " + i);
+            }
 
             while (aNumber < bNumber) {
                 alert("aNumber is less than bNumber");
                 aNumber++;
+                alert("aNumber in the while loop is now " + aNumber);
             }
+
+            aNumber = 0;
+
+            do {
+                alert("The value of aNumber in the do...while loop is " + aNumber);
+                aNumber++;
+            } while (aNumber < bNumber);
+
+            alert("Script complete!")
         }
     </script>
 </head>
