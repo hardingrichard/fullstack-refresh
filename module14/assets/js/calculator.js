@@ -15,3 +15,7 @@ function clearInput() {
 function plusMinus() {
     document.getElementById('result').value = document.getElementById('result').value * -1;
 }
+
+function percentage() {
+    document.getElementById('result').value = document.getElementById('result').value / 100;
+}
