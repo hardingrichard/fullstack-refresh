@@ -8,6 +8,23 @@ function input(x) {
     }
 }
 
+function operators(x) {
+    switch (x) {
+        case 1:
+            document.getElementById('result').value += '+';
+            break;
+        case 2:
+            document.getElementById('result').value += '-';
+            break;
+        case 3:
+            document.getElementById('result').value += '*';
+            break;
+        case 4:
+            document.getElementById('result').value += '/';
+            break;
+    }
+}
+
 function clearInput() {
     document.getElementById('result').value = 0;
 }
