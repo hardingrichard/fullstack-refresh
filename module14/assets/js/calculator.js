@@ -85,5 +85,7 @@ function square() {
 }
 
 function equals() {
-    document.getElementById('result').value = eval(document.getElementById('result').value);
+    operators(parseInt(document.getElementById('operation').value));
+    document.getElementById('result').value = document.getElementById('operand').value;
+    document.getElementById('operand').value = '';
 }
