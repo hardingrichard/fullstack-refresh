@@ -25,6 +25,10 @@ function operators(x) {
     }
 }
 
+function decimalPoint() {
+    document.getElementById('result').value += '.';
+}
+
 function clearInput() {
     document.getElementById('result').value = 0;
 }
