@@ -40,3 +40,7 @@ function percentage() {
 function square() {
     document.getElementById('result').value = Math.pow(document.getElementById('result').value, 2);
 }
+
+function equals() {
+    document.getElementById('result').value = eval(document.getElementById('result').value);
+}
