@@ -8,21 +8,58 @@ function input(x) {
     }
 }
 
+function operandCheck() {
+    if (document.getElementById('operand').value == '') {
+        document.getElementById('operand').value = document.getElementById('result').value;
+
+        document.getElementById('result').value = 0;
+    }
+    else {
+        operatorCheck();
+    }
+}
+
+function operatorCheck() {
+    let a = parseFloat(document.getElementById('operand').value);
+    let b = parseFloat(document.getElementById('result').value);
+
+    switch (parseInt(document.getElementById('operation').value)) {
+        case 1:
+            a += b;
+            break;
+        case 2:
+            a -= b;
+            break;
+        case 3:
+            a *= b;
+            break;
+        case 4:
+            a /= b;
+            break;
+    }
+
+    document.getElementById('operand').value = a;
+    document.getElementById('result').value = a;
+}
+
 function operators(x) {
     switch (x) {
         case 1:
-            document.getElementById('result').value += '+';
+            document.getElementById('operation').value = 1;
             break;
         case 2:
-            document.getElementById('result').value += '-';
+            document.getElementById('operation').value = 2;
             break;
         case 3:
-            document.getElementById('result').value += '*';
+            document.getElementById('operation').value = 3;
             break;
         case 4:
-            document.getElementById('result').value += '/';
+            document.getElementById('operation').value = 4;
             break;
+        default:
     }
+
+    operandCheck();
 }
 
 function decimalPoint() {
@@ -31,6 +68,8 @@ function decimalPoint() {
 
 function clearInput() {
     document.getElementById('result').value = 0;
+    document.getElementById('operand').value = '';
+    document.getElementById('operation').value = 0;
 }
 
 function plusMinus() {
