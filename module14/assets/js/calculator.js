@@ -19,3 +19,7 @@ function plusMinus() {
 function percentage() {
     document.getElementById('result').value = document.getElementById('result').value / 100;
 }
+
+function square() {
+    document.getElementById('result').value = Math.pow(document.getElementById('result').value, 2);
+}
