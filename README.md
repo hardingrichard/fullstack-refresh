@@ -1,6 +1,6 @@
 # Full-Stack Refresh
 
-A small project where I will document my progress through refreshing my knowledge on Full-Stack Web Development.
+A refresher course where I will document my progress through refreshing my knowledge on Full-Stack Web Development.
 
 ## Table of Contents
 
