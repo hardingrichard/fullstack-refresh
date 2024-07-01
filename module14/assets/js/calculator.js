@@ -79,8 +79,13 @@ function operators(x) {
 }
 
 function decimalPoint() {
-
-    document.getElementById('result').value += '.';
+    // Gets the current value of the result input field
+    let resultValue = document.getElementById('result').value;
+    // Checks if the current value of the result input field contains a decimal point
+    if (resultValue.indexOf('.') == -1) {
+        // If the current value of the result input field does not contain a decimal point, append decimal point
+        document.getElementById('result').value += '.';
+    }
 }
 
 function clearInput() {
