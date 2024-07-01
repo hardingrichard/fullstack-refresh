@@ -24,7 +24,6 @@ function operandCheck() {
     if (document.getElementById('operand').value == '') {
 
         document.getElementById('operand').value = document.getElementById('result').value;
-        document.getElementById('result').value = 0;
         document.getElementById('equivalent').value = 1;
     }
 
