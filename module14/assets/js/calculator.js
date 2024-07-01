@@ -1,3 +1,12 @@
+function equivalentCheck() {
+    
+    if (parseInt(document.getElementById('equivalent').value)) {
+
+        document.getElementById('equivalent').value = 0;
+        document.getElementById('result').value = 0;
+    }
+}
+
 function input(x) {
 
     if (document.getElementById('result').value == 0) {
@@ -9,6 +18,7 @@ function input(x) {
 }
 
 function operandCheck() {
+
     if (document.getElementById('operand').value == '') {
         document.getElementById('operand').value = document.getElementById('result').value;
 
@@ -20,6 +30,7 @@ function operandCheck() {
 }
 
 function operatorCheck() {
+
     let a = parseFloat(document.getElementById('operand').value);
     let b = parseFloat(document.getElementById('result').value);
 
@@ -43,6 +54,7 @@ function operatorCheck() {
 }
 
 function operators(x) {
+
     switch (x) {
         case 1:
             document.getElementById('operation').value = 1;
@@ -63,28 +75,34 @@ function operators(x) {
 }
 
 function decimalPoint() {
+
     document.getElementById('result').value += '.';
 }
 
 function clearInput() {
+
     document.getElementById('result').value = 0;
     document.getElementById('operand').value = '';
     document.getElementById('operation').value = 0;
 }
 
 function plusMinus() {
+
     document.getElementById('result').value = document.getElementById('result').value * -1;
 }
 
 function percentage() {
+
     document.getElementById('result').value = document.getElementById('result').value / 100;
 }
 
 function square() {
+
     document.getElementById('result').value = Math.pow(document.getElementById('result').value, 2);
 }
 
 function equals() {
+    
     operators(parseInt(document.getElementById('operation').value));
     document.getElementById('result').value = document.getElementById('operand').value;
     document.getElementById('operand').value = '';
