@@ -4,6 +4,7 @@ A refresher course where I will document my progress through refreshing my knowl
 
 ## Table of Contents
 
+### Web Fundamentals
 - [1. HTML5-CSS3 Introduction](#module-1---html5-css3-introduction)
 - [2. The Internet and World Wide Web](#module-2---the-internet-and-world-wide-web)
 - [3. HTML Fundamentals](#module-3---html-fundamentals)
@@ -19,6 +20,14 @@ A refresher course where I will document my progress through refreshing my knowl
 - [13. Programming and JavaScript](#module-13---programming-and-javascript)
 - [14. The Calculator](#module-14---the-calculator)
 - [Practice](#practice)
+
+### JavaScript Essentials
+- [1. Introduction to JavaScript](#module-1---introduction-to-javascript)
+- [2. Core Concepts And Syntax](#module-2---core-concepts-and-syntax)
+- [3. Getting A Handle On The DOM](#module-3---getting-a-handle-on-the-dom)
+- [4. Working with Libraries](#module-4---working-with-libraries)
+
+## Web Fundamentals
 
 ## Module 1 - HTML5-CSS3 Introduction
 
@@ -126,3 +135,49 @@ A refresher course where I will document my progress through refreshing my knowl
 14.7 Calculator Part 7  
 
 ## Practice
+
+## JavaScript Essentials
+
+## Module 1 - Introduction To JavaScript
+
+1.1 Introduction
+1.2 JavaScript From The Dawn Of The Web Part 1
+1.3 JavaScript From The Dawn Of The Web Part 2
+1.4 Getting The Right Tools
+1.5 Creating Your First JavaScript Program Part 1
+1.6 Creating Your First JavaScript Program Part 2
+
+## Module 2 - Core Concepts And Syntax
+2.1 The Structure And Content Part 1
+2.2 The Structure And Content Part 2
+2.3 Naming And Casing Best Practices
+2.4 Understanding Variables Part 1
+2.5 Understanding Variables Part 2
+2.6 Understanding Variables Part 3
+2.7 Working With Operators Part 1
+2.8 Working With Operators Part 2
+2.9 Working With Loops Part 1
+2.10 Working With Loops Part 2
+2.11 Creating Functions Part 1
+2.12 Creating Functions Part 2
+2.13 Understanding Types And Objects Part 1
+2.14 Understanding Types And Objects Part 2
+2.15 Understanding Types And Objects Part 3
+2.16 Understanding Types And Objects Part 4
+2.17 Understanding Types And Objects Part 5
+
+## Module 3 - Getting A Handle On The DOM
+3.1 Introduction To The HTML Document Object Model
+3.2 Accessing DOM Elements
+3.3 Changing DOM Elements
+3.4 Creating DOM Elements
+3.5 Responding To Events Part 1
+3.6 Responding To Events Part 2
+
+## Module 4 - Working with Libraries
+4.1 Introduction To Libraries
+4.2 Installing And Using jQuery Part 1
+4.3 Installing And Using jQuery Part 2
+4.4 Modifying Web Pages Using jQuery Part 1
+4.5 Modifying Web Pages Using jQuery Part 2
+4.6 Conclusion
