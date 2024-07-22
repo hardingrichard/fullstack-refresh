@@ -30,3 +30,7 @@ function numberValidate() {
     // Display result
     document.getElementById("demo3").innerHTML = text;
 }
+
+function changePara() {
+    document.getElementById("demo4").innerHTML = "See! The paragraph has changed!"
+}
