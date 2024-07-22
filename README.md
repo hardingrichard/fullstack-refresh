@@ -66,31 +66,31 @@ A refresher course where I will document my progress through refreshing my knowl
 
 ## Module 8 - Layouts
 
-8.1 Layouts
-8.2 Tablets Part 1 
-8.3 Tablets Part 2 
-8.4 Styling Part 1 
-8.5 Styling Part 2 
-8.6 Styling Part 3 
-8.7 Styling Part 4 
-8.8 Styling Part 5 
+8.1 Layouts\
+8.2 Tablets Part 1\
+8.3 Tablets Part 2\
+8.4 Styling Part 1\
+8.5 Styling Part 2\
+8.6 Styling Part 3\
+8.7 Styling Part 4\
+8.8 Styling Part 5\
 8.9 Styling Part 6
 
 ## Module 9 - Tables
 
-9.1 Tables Part 1 
+9.1 Tables Part 1\
 9.2 Tables Part 2
 
 ## Module 10 - Multimedia
 
-10.1 Multimedia
-10.2 Multimedia Part 2 
+10.1 Multimedia\
+10.2 Multimedia Part 2\
 10.3 Multimedia Part 3
 
 ## Module 11 - Forms and JavaScript
 
-11.1 Forms and JavaScript 
-11.2 jQuery
+11.1 Forms and JavaScript\
+11.2 jQuery\
 11.3 Styling Tables
 
 ## Module 12 - The Web Server
@@ -99,21 +99,21 @@ A refresher course where I will document my progress through refreshing my knowl
 
 ## Module 13 - Programming and JavaScript
 
-13.1 Data Types 
-13.2 Global Methods 
-13.3 Variables
-13.4 Conditional Statements 
-13.5 Loops
+13.1 Data Types\
+13.2 Global Methods\ 
+13.3 Variables\
+13.4 Conditional Statements\
+13.5 Loops\
 13.6 Operators
 
 ## Module 14 - The Calculator
 
-14.1 Calculator Part 1 
-14.2 Calculator Part 2 
-14.3 Calculator Part 3 
-14.4 Calculator Part 4 
-14.5 Calculator Part 5 
-14.6 Calculator Part 6 
+14.1 Calculator Part 1\
+14.2 Calculator Part 2\
+14.3 Calculator Part 3\
+14.4 Calculator Part 4\
+14.5 Calculator Part 5\
+14.6 Calculator Part 6\
 14.7 Calculator Part 7
 
 ## Practice
