@@ -1,11 +1,10 @@
-let car = "Mercedes";
-let van = "Ford";
-let myNumber = 55;
-let myString = "55"
+let car = "Mercedes",
+    van = "Ford",
+    myNumber = 55,
+    myString = "55"
 
-let firstName = "Rich";
-let lastName = "Harding";
-let age = 35;
+let firstName = "Rich", lastName = "Harding", age = 35;
+
 let myMessage = firstName + " " + lastName + " is " + age + " years old.";
 
 console.log(car);
@@ -14,3 +13,5 @@ console.log(myNumber);
 console.log(myString);
 console.log(myNumber + myString);
 console.log(myMessage);
+
+console.log(car, van, myNumber, myString, myNumber + myString, myMessage);
