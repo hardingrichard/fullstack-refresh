@@ -26,3 +26,9 @@ console.log(carExamples[3]);
 
 carExamples[1] = "Audi";
 console.log(carExamples);
+
+let htmlTags = document.getElementsByTagName("p");
+console.log(htmlTags);
+
+htmlTags[0];
+htmlTags.length;
