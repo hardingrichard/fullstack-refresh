@@ -15,3 +15,14 @@ console.log(myNumber + myString);
 console.log(myMessage);
 
 console.log(car, van, myNumber, myString, myNumber + myString, myMessage);
+
+let multiValues = [car, van, myNumber, myString, myNumber + myString, myMessage];
+
+console.log(multiValues);
+
+let carExamples = ["Mercedes", "Ford", "Mazda", "Porsche", "BMW"];
+console.log(carExamples);
+console.log(carExamples[3]);
+
+carExamples[1] = "Audi";
+console.log(carExamples);
