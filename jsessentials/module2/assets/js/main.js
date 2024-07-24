@@ -27,8 +27,12 @@ console.log(carExamples[3]);
 carExamples[1] = "Audi";
 console.log(carExamples);
 
-let htmlTags = document.getElementsByTagName("p");
-console.log(htmlTags);
+console.log(carExamples.sort());
+console.log(carExamples.join());
+console.log(carExamples.reverse());
 
-htmlTags[0];
-htmlTags.length;
+// let htmlTags = document.getElementsByTagName("p");
+// console.log(htmlTags);
+
+// htmlTags[0];
+// htmlTags.length;
