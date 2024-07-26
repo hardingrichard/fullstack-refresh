@@ -130,3 +130,15 @@ switch (new Date().getDay()) {
         break;
 }
 console.log("Today is " + day);
+
+// condition ? expressionIfTrue : expressionIfFalse
+
+let playerOne = 100,
+    playerTwo = 150;
+
+let highScore = (playerOne > playerTwo) ? playerOne : playerTwo;
+console.log(highScore);
+
+let voterAge = 16;
+let votingAge = (voterAge < 18) ? "Too young" : "Old enough";
+console.log(votingAge);
