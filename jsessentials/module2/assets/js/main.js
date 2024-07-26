@@ -43,3 +43,18 @@ console.log(carExamples.reverse());
 
 // htmlTags[0];
 // htmlTags.length;
+
+let x = 5;
+let y = 10;
+
+let z = x * y;
+console.log(z);
+
+z--;
+console.log(z);
+
+z++;
+console.log(z);
+
+z += 5;
+console.log(z);
