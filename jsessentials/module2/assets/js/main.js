@@ -94,3 +94,14 @@ if (a === b) {
 } else {
     console.log("a is not equal to b")
 }
+
+a = 72;
+b = 68;
+
+if (a > b) {
+    console.log("a is greater than b")
+}   else if (a < b) {
+    console.log("a is less than b")
+}   else {
+    console.log("a is equal to b")
+}
