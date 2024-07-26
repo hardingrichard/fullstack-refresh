@@ -68,3 +68,29 @@ let playerName = "Rich",
 let message = "Great work " + playerName + ", you are currently ranked " + playerRank + " with a score of " + playerScore;
 
 console.log(message);
+
+let a = 5, 
+    b = 10;
+
+if (a == b) {
+    console.log("a is equal to b")
+} else {
+    console.log("a is not equal to b")
+}
+
+console.log("Values are " + a + " and " + b);
+
+a = 65;
+b = "65";
+
+if (a == b) {
+    console.log("a is equal to b")
+} else {
+    console.log("a is not equal to b")
+}
+
+if (a === b) {
+    console.log("a is equal to b")
+} else {
+    console.log("a is not equal to b")
+}
