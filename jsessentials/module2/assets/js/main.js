@@ -61,3 +61,10 @@ console.log(z);
 
 z += x;
 console.log(z);
+
+let playerName = "Rich",
+    playerScore = 1500,
+    playerRank = 1;
+let message = "Great work " + playerName + ", you are currently ranked " + playerRank + " with a score of " + playerScore;
+
+console.log(message);
