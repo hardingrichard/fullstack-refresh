@@ -181,3 +181,19 @@ for (i = 0; i < 5; i++) {
     text += "Number is: " + i + " ";
 }
 console.log(text);
+
+for (i = 0; i < carLoop.length; i++) {
+    text += carLoop[i] + " ";
+}
+console.log(text);
+
+for (i = 0; i < 10; i++) {
+    if (i === 3) {
+        continue;
+    }
+    if (i === 7) {
+        break;
+    }
+    text += "Number is: " + i + " ";
+}
+console.log(text);
