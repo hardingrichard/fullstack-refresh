@@ -142,3 +142,14 @@ console.log(highScore);
 let voterAge = 16;
 let votingAge = (voterAge < 18) ? "Too young" : "Old enough";
 console.log(votingAge);
+
+let loopOne = 1;
+
+if (loopOne < 10) {
+    console.log(loopOne);
+}
+
+while (loopOne < 10) {
+    console.log(loopOne);
+    loopOne++;
+}
