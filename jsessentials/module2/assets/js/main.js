@@ -153,3 +153,15 @@ while (loopOne < 10) {
     console.log(loopOne);
     loopOne++;
 }
+
+let carLoop = ["BMW", "Audi", "Mercedes", "Porsche", "Ford"];
+carLoop[1];
+
+let i = 0
+let text = "";
+
+while (carLoop[i]) {
+    text += carLoop[i] + " ";
+    i++;
+    console.log(text);
+}
