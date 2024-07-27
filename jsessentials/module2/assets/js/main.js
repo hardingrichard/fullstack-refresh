@@ -174,3 +174,10 @@ do {
     i++;
 } while (i < 10);
 console.log(text);
+
+// Common Loop components: Set up the index, Check the condition, Increment the index
+
+for (i = 0; i < 5; i++) {
+    text += "Number is: " + i + " ";
+}
+console.log(text);
