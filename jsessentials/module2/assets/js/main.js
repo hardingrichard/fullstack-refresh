@@ -165,3 +165,12 @@ while (carLoop[i]) {
     i++;
     console.log(text);
 }
+
+i = 0;
+text = "";
+
+do {
+    text += "Number is: " + i + " ";
+    i++;
+} while (i < 10);
+console.log(text);
