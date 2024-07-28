@@ -219,3 +219,28 @@ function functionExample2 (a, b) {
 }
 
 console.log(functionExample2(2, 5));
+
+function valueCheck (x, y) {
+    if (y === undefined) {
+        y = 0;
+    }
+    return x * y;
+}
+
+console.log(valueCheck(5, 5));
+
+// Run through the arguments and return the highest value
+function findMax() {
+    let i;
+    max = -Infinity;
+
+    for (i = 0; i < arguments.length; i++) {
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }
+    }
+    return max;
+}
+
+maxFinder = findMax(5, 10, 15, 20, 25, 30);
+console.log(maxFinder);
