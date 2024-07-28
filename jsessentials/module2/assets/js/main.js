@@ -202,6 +202,7 @@ console.log(text);
 function functionExample (a, b) {
     return a * b;
 }
+
 console.log(functionExample(5, 10));
 
 let fx = function (a, b) {return a * b};
@@ -209,3 +210,12 @@ console.log(x);
 
 let fx2 = fx(2, 10);
 console.log(fx2);
+
+let fx3 = fx(2, 10) * 2;
+console.log(fx3);
+
+function functionExample2 (a, b) {
+    return arguments.length;
+}
+
+console.log(functionExample2(2, 5));
