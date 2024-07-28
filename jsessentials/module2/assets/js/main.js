@@ -244,3 +244,13 @@ function findMax() {
 
 maxFinder = findMax(5, 10, 15, 20, 25, 30);
 console.log(maxFinder);
+
+// Function to return the sum of all arguments
+let myObject = {
+    firstName: "Rich",
+    lastName: "Harding",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+}
+console.log(myObject, myObject.fullName());
