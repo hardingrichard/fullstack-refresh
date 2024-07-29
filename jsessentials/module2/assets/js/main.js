@@ -349,3 +349,19 @@ let myParents = [myDad, myMum];
 
 console.log(person);
 console.log(myParents);
+
+console.log(myDad.firstName);
+console.log(myMum.firstName);
+console.log(myParents[1]);
+console.log(myParents.length);
+
+let output = "";
+for (p in myDad) {
+    output += myDad[p] + " ";
+}
+console.log(output);
+
+myDad.nationality = "British";
+myMum.nationality = "British";
+
+console.log(myParents);
