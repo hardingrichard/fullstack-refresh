@@ -315,3 +315,23 @@ let replaceStr = str.replace("in store", "online"); // Searches a string for a s
 console.log(replaceStr.toUpperCase());
 
 console.log(str.charAt(5)); // Returns the character at a specified index (position) in a string.
+
+let todayDate = new Date(); // Creates a new date object with the current date and time.
+console.log(todayDate);
+
+let randomDate = new Date(1482940820583); // Creates a new date object with a specified date and time in milliseconds.
+console.log(randomDate);
+
+console.log(todayDate.getDate()); // Returns the day of the month (from 1-31).
+console.log(todayDate.getDay()); // Returns the day of the week (from 0-6).
+console.log(todayDate.getFullYear()); // Returns the year.
+console.log(todayDate.getHours()); // Returns the hour (from 0-23).
+console.log(todayDate.getMinutes()); // Returns the minutes (from 0-59).
+console.log(todayDate.getSeconds()); // Returns the seconds (from 0-59).
+console.log(todayDate.getMilliseconds()); // Returns the milliseconds (from 0-999).
+console.log(todayDate.getTime()); // Returns the number of milliseconds since midnight Jan 1, 1970.
+console.log(todayDate.getTimezoneOffset()); // Returns the time difference between UTC time and local time, in minutes.
+
+console.log(todayDate.toString()); // Converts the date portion of a Date object into a readable string.
+console.log(todayDate.toTimeString()); // Converts the time portion of a Date object into a readable string.
+console.log(todayDate.toUTCString()); // Converts a Date object to a string, according to universal time.
