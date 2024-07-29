@@ -254,3 +254,32 @@ let myObject = {
     }
 }
 console.log(myObject, myObject.fullName());
+
+let numX = 34.00;
+let numY = 34;
+
+console.log(numX);
+console.log(numY);
+
+numX = (0.2 * 10 + 0.1 * 10) / 10;
+console.log(numX);
+
+numX = "fifty five";
+if (isNaN(numX)) {
+    console.log("Not a number");
+}
+
+console.log(Math.random()); // Random number between 0 and 1
+console.log(Math.random() * 100); // Random number between 0 and 100
+
+console.log(Math.max(0, 150, 30, 20, 38, 45, 100)); // Returns the highest value
+console.log(Math.min(0, 150, 30, 20, 38, 45, 100)); // Returns the lowest value
+
+console.log(Math.round(4.7)); // Rounds to nearest integer
+console.log(Math.round(4.4)); // Rounds to nearest integer
+console.log(Math.ceil(4.4)); // Always rounds up
+console.log(Math.floor(4.7)); // Always rounds down
+
+console.log(Math.PI); // Value of PI
+console.log(Math.sqrt(64)); // Square root of 64
+console.log(Math.SQRT2); // Square root of 2
