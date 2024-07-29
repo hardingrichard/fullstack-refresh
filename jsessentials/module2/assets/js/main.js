@@ -283,3 +283,8 @@ console.log(Math.floor(4.7)); // Always rounds down
 console.log(Math.PI); // Value of PI
 console.log(Math.sqrt(64)); // Square root of 64
 console.log(Math.SQRT2); // Square root of 2
+
+numX = 5;
+console.log(numX);
+console.log(numX.toString()); // Converts number to string
+console.log((123).toString()); 
