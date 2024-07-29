@@ -336,12 +336,13 @@ console.log(todayDate.toString()); // Converts the date portion of a Date object
 console.log(todayDate.toTimeString()); // Converts the time portion of a Date object into a readable string.
 console.log(todayDate.toUTCString()); // Converts a Date object to a string, according to universal time.
 
-function person (first, last, age, eye, fullName) {
+function person (first, last, age, eye, nationality) {
     this.firstName = first;
     this.lastName = last;
     this.age = age;
     this.eyeColor = eye;
-}
+    this.nationality = nationality;   
+} // Creates a new object with a constructor function.
 
 let myDad = new person("Roger", "Harding", 80, "blue");
 let myMum = new person("Anne", "Harding", 77, "blue");
@@ -358,10 +359,11 @@ console.log(myParents.length);
 let output = "";
 for (p in myDad) {
     output += myDad[p] + " ";
-}
+} // Loops through the properties of an object.
+
 console.log(output);
 
-myDad.nationality = "British";
+myDad.nationality = "British"; // Adds a new property to an object.
 myMum.nationality = "British";
 
 console.log(myParents);
