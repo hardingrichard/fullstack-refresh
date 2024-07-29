@@ -288,3 +288,30 @@ numX = 5;
 console.log(numX);
 console.log(numX.toString()); // Converts number to string
 console.log((123).toString()); 
+
+let quote = "The quick brown fox jumps over the lazy dog";
+console.log(quote);
+
+let quoteExample = "The fox is called \"Red\" and the dog is called \"Pablo\"";
+
+console.log(quoteExample);
+console.log(quoteExample.length);
+console.log(quoteExample.toUpperCase());
+console.log(quoteExample.toLowerCase());
+
+let str = "Please locate where 'locate' occurs!";
+let pos = str.indexOf("locate"); // Returns the position of the first occurrence of a specified text in a string. This would be useful for when searching for words within a form response.
+console.log(pos);
+
+str = "Apple, Banana, Kiwi, Orange";
+let res = str.slice(7, 13); // Extracts a part of a string and returns the extracted part in a new string. The method takes 2 parameters: the start position, and the end position (end not included).
+console.log(res);
+
+let subString = str.substring(7, 13); // Similar to slice, but cannot accept negative indexes. Used to extract a part of a string and returns the extracted part in a new string.
+console.log(subString);
+
+str = "Please visit us in store";
+let replaceStr = str.replace("in store", "online"); // Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced.
+console.log(replaceStr.toUpperCase());
+
+console.log(str.charAt(5)); // Returns the character at a specified index (position) in a string.
