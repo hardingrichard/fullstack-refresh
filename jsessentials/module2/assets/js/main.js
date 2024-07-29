@@ -335,3 +335,17 @@ console.log(todayDate.getTimezoneOffset()); // Returns the time difference betwe
 console.log(todayDate.toString()); // Converts the date portion of a Date object into a readable string.
 console.log(todayDate.toTimeString()); // Converts the time portion of a Date object into a readable string.
 console.log(todayDate.toUTCString()); // Converts a Date object to a string, according to universal time.
+
+function person (first, last, age, eye, fullName) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+
+let myDad = new person("Roger", "Harding", 80, "blue");
+let myMum = new person("Anne", "Harding", 77, "blue");
+let myParents = [myDad, myMum];
+
+console.log(person);
+console.log(myParents);
