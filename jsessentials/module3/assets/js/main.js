@@ -19,3 +19,12 @@ console.log("titleHeader: ", titleHeader.nodeType);
 console.log("Inner HTML: ", titleHeader.innerHTML);
 console.log("Child Objects: ", titleHeader.childNodes);
 console.log(headers.length);
+console.log(headers[1].innerHTML);
+
+let headLink = document.getElementsByTagName("a");
+let firstLink = headLink[0].getAttribute("href");
+console.log(firstLink.length);
+console.log("First Link: ", firstLink);
+
+titleHeader.setAttribute("align", "center");
+titleHeader.style.color = "darkblue";
