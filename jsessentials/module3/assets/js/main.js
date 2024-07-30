@@ -28,3 +28,9 @@ console.log("First Link: ", firstLink);
 
 titleHeader.setAttribute("align", "center");
 titleHeader.style.color = "darkblue";
+document.getElementById("domImg").setAttribute("src", "assets/img/dom.png");
+document.getElementById("domImg").setAttribute("alt", "Image of the DOM tree");
+document.getElementById("domImg").addEventListener("mouseover", function () {
+    document.getElementById("domImg").setAttribute("src", "");
+    document.getElementById("domImg").setAttribute("alt", "");
+});
