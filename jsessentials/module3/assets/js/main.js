@@ -26,6 +26,7 @@ let firstLink = headLink[0].getAttribute("href");
 console.log(firstLink.length);
 console.log("First Link: ", firstLink);
 
+// Changing the DOM
 titleHeader.setAttribute("align", "center");
 titleHeader.style.color = "darkblue";
 document.getElementById("domImg").setAttribute("src", "assets/img/dom.png");
@@ -39,3 +40,11 @@ document.getElementById("domImg").addEventListener("mouseover", function () {
 changeHeader.addEventListener("mouseover", function() {
     changeHeader.setAttribute("Style", "color: darkred", "font-size: 24px");
 });
+
+// Creating DOM Elements
+let listItems = document.createElement("li"); // Create a list item
+let textNode = document.createTextNode("Testing 123"); // Create a text node
+listItems.appendChild(textNode); // Append the text node to the list item
+
+introHeader.appendChild(listItems); // Append the list item to the introHeader
+listItems.setAttribute("style", "font-size: 16px");
