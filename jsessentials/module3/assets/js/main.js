@@ -46,5 +46,22 @@ let listItems = document.createElement("li"); // Create a list item
 let textNode = document.createTextNode("Testing 123"); // Create a text node
 listItems.appendChild(textNode); // Append the text node to the list item
 
-introHeader.appendChild(listItems); // Append the list item to the introHeader
+createHeader.appendChild(listItems); // Append the list item to the introHeader
 listItems.setAttribute("style", "font-size: 16px");
+
+let pElement = document.createElement("p");
+let pNode = document.createTextNode("This is a new paragraph test");
+
+pElement.appendChild(pNode); // Append the text node to the paragraph element
+listItems.appendChild(pElement); // Append the paragraph element to the list item
+
+let newParaElement = document.getElementById("changeHeader");
+newParaElement.appendChild(pElement); // Append the paragraph element to the changeHeader
+pElement.setAttribute("style", "font-size: 18px");
+
+let headerAdd = document.getElementById("headerSection");
+let newHeader = document.createElement("h2");
+let newHeaderNode = document.createTextNode("Test: This is a new header");
+
+headerAdd.appendChild(newHeader); // Append the new header element to the headerSection
+newHeader.appendChild(newHeaderNode); // Append the text node to the new header element
