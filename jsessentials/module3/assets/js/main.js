@@ -80,4 +80,32 @@ for (let i = 0; i < eventHeaders.length; i++) {
     eventHeaders[i].addEventListener("mouseover", function() {
         eventHeaders[i].style.color = "darkblue";
     });
+} // Loops through eventHeaders and changes the color to darkblue when the mouse hovers over the element
+
+document.getElementById("domHeader").addEventListener("mousedown", function() {
+    domHeader.innerHTML = "You can click but there isn't a link to take you anywhere!";
+});
+
+document.getElementById("domHeader").addEventListener("mouseup", function() {
+    domHeader.innerHTML = "Accessing DOM Elements";
+});
+
+function simpleMessage() {
+    alert("This is a simple message");
 }
+
+setTimeout(simpleMessage, 5000); // Displays the simple message after 5 seconds
+
+let myImage = document.getElementById("domImg");
+let imageArray = ["assets/img/dom.png", "assets/img/dom2.png", "assets/img/dom3.png"];
+let imageIndex = 0;
+
+function changeImage() {
+    myImage.setAttribute("src", imageArray[imageIndex]); // Changes the image source
+    imageIndex++;
+    if (imageIndex >= imageArray.length) {
+        imageIndex = 0;
+    } // Loops through the imageArray and changes the image every time the function is called
+}
+
+setInterval(changeImage, 5000); // Changes the image every 5 seconds
