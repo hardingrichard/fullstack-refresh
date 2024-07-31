@@ -65,3 +65,13 @@ let newHeaderNode = document.createTextNode("Test: This is a new header");
 
 headerAdd.appendChild(newHeader); // Append the new header element to the headerSection
 newHeader.appendChild(newHeaderNode); // Append the text node to the new header element
+
+// Responding to Events
+
+document.getElementsByClassName("eventHeader")[0].onclick = function() {
+    alert("Hey! You clicked on me!")
+}
+
+document.getElementsByClassName("eventHeader")[1].onclick = function() {
+    alert("Hey! You clicked on me too!")
+}
