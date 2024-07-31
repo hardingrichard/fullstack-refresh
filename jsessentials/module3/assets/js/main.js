@@ -75,3 +75,9 @@ document.getElementsByClassName("eventHeader")[0].onclick = function() {
 document.getElementsByClassName("eventHeader")[1].onclick = function() {
     alert("Hey! You clicked on me too!")
 }
+
+for (let i = 0; i < eventHeaders.length; i++) {
+    eventHeaders[i].addEventListener("mouseover", function() {
+        eventHeaders[i].style.color = "darkblue";
+    });
+}
