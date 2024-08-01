@@ -87,4 +87,19 @@ $(document).ready(function () {
         $("#test3").val("Text input text set from clicking 'Set Value' button");
     });
 
+    // Click event for appending to #appendBtn button
+    $("#appendBtn").click(function() {
+        appendText();
+    });
 });
+
+function appendText() {
+    let txt1 = "<p> Example text with html markup </p>"; // Create text with HTML
+    let txt2 = $("<p></p>").text("This is example text."); // Create text with jQuery
+    let txt3 = document.createElement("p");
+
+    txt3.innerHTML = "Example text created using the DOM"; // Create text with the DOM
+
+    $("#test4").append(txt1, txt2, txt3); // Append the new elements
+}
+
