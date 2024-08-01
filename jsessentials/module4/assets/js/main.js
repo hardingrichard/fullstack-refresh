@@ -106,5 +106,15 @@ $(document).ready(function () {
     $("#removeBtn").click(function() {
         $("#install, #modify").remove();
     });
+
+    // Click event for animating paragraph on #animateBtn button press
+    $("#animateBtn").click(function() {
+        $("#animateDiv").animate({left: "500px" }, 1000);
+    });
+
+    // Click event for resetting the animation on #resetBtn button press
+    $("#resetBtn").click(function() {
+        $("#animateDiv").animate({left: "0px" }, 1000);
+    });
 });
 
