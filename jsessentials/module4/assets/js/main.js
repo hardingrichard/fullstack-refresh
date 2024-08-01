@@ -71,4 +71,20 @@ $(document).ready(function () {
     $("#show3").click(function() {
         alert($("#w3s").attr("href"));
     });
+
+    // Set text for #set1 button
+    $("#set1").click(function() {
+        $("#test1").text("Test text set from clicking 'Set Text' button");
+    });
+
+    // Set HTML for #set2 button
+    $("#set2").click(function() {
+        $("#test2").html("<b>Test text set from clicking 'Set HTML' button</b>");
+    });
+
+    // Set Value for #set3 button
+    $("#set3").click(function() {
+        $("#test3").val("Text input text set from clicking 'Set Value' button");
+    });
+
 });
