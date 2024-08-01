@@ -39,21 +39,21 @@ function installSection() {
 $(document).ready(installSection);
 
 $(document).ready(function () {
-    $("button").click(function() {
+    // Hide all paragraphs when the first button is clicked
+    $("button").eq(0).click(function() {
         $("p").hide();
     });
-});
 
-$(document).ready(function () {
-    $("button").eq(1).click(function() { 
+    // Show all paragraphs when the second button is clicked
+    $("button").eq(1).click(function() {
         $("p").show();
-        // eq() method selects the element at the specified index, this case 1 would select the second button.
     });
-});
 
-$("button").eq(2).click(function() {
-    $("h2").eq(0).attr("style", "color:#333").html("Installing And Using jQuery");
-    $("h2").eq(1).attr("style", "color:#333").html("Modifying Web Pages Using jQuery")
-    $("p").show();
-    $("#title").html("Working With Libraries: jQuery");
+    // Reset button to revert page back to original HTML content
+    $("button").eq(2).click(function() {
+        $("h2").eq(0).attr("style", "color:#333").html("Installing And Using jQuery");
+        $("h2").eq(1).attr("style", "color:#333").html("Modifying Web Pages Using jQuery");
+        $("p").show();
+        $("#title").html("<h1>Working With Libraries: jQuery<h1/>");
+    });
 });
