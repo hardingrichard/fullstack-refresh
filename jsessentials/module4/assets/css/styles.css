@@ -75,6 +75,13 @@ p {
     color: #fff;
 }
 
+#animateDiv {
+    background: #333;
+    height: 50px;
+    width: 550px;
+    position: relative;
+}
+
 #buttons {
     text-align: center;
     padding: 1em 0;
