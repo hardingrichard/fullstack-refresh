@@ -56,4 +56,14 @@ $(document).ready(function () {
         $("p").show();
         $("#title").html("<h1>Working With Libraries: jQuery<h1/>");
     });
+    
+    // Show text in alert for #show1 button
+    $("#show1").click(function() {
+        alert("Text: " + $("#paraTest").text());
+    });
+
+    // Show HTML in alert for #show2 button
+    $("#show2").click(function() {
+        alert("HTML: " + $("#paraTest").html());
+    });
 });
