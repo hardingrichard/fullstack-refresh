@@ -38,6 +38,16 @@ function installSection() {
 
 $(document).ready(installSection);
 
+function appendText() {
+    let txt1 = "<p> Example text with html markup </p>"; // Create text with HTML
+    let txt2 = $("<p></p>").text("This is example text."); // Create text with jQuery
+    let txt3 = document.createElement("p");
+
+    txt3.innerHTML = "Example text created using the DOM"; // Create text with the DOM
+
+    $("#modify").append(txt1, txt2, txt3); // Append the new elements
+}
+
 $(document).ready(function () {
     // Hide all paragraphs when the first button is clicked
     $("button").eq(0).click(function() {
@@ -91,15 +101,10 @@ $(document).ready(function () {
     $("#appendBtn").click(function() {
         appendText();
     });
+
+    // Click event for removing 
+    $("#removeBtn").click(function() {
+        $("#install, #modify").remove();
+    });
 });
-
-function appendText() {
-    let txt1 = "<p> Example text with html markup </p>"; // Create text with HTML
-    let txt2 = $("<p></p>").text("This is example text."); // Create text with jQuery
-    let txt3 = document.createElement("p");
-
-    txt3.innerHTML = "Example text created using the DOM"; // Create text with the DOM
-
-    $("#test4").append(txt1, txt2, txt3); // Append the new elements
-}
 
