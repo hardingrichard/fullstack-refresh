@@ -34,3 +34,14 @@ print(second_string)
 second_string = first_string
 
 print(second_string)
+
+first_name = "richard"
+last_name = "harding"
+age = 35
+my_name = first_name + " " + last_name
+
+print(my_name)
+print(my_name.title())
+print(my_name.upper())
+# print(my_name + " is " + age + " years old")
+print(my_name.title() + " is " + str(age) + " years old")
