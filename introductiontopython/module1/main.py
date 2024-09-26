@@ -45,3 +45,8 @@ print(my_name.title())
 print(my_name.upper())
 # print(my_name + " is " + age + " years old")
 print(my_name.title() + " is " + str(age) + " years old")
+
+middle_name = "james"
+my_name = first_name + " " + middle_name + " " + last_name
+print(my_name.title() + " is " + str(age) + " years old")
+
