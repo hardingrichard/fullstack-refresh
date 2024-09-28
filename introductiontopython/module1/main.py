@@ -48,5 +48,11 @@ print(my_name.title() + " is " + str(age) + " years old")
 
 middle_name = "james"
 my_name = first_name + " " + middle_name + " " + last_name
-print(my_name.title() + " is " + str(age) + " years old")
+print(my_name.title() + " is " + str(age) + " years old") 
 
+the_boolean = 10 > 20
+print(the_boolean)
+print(type(the_boolean))
+
+the_boolean = 20 > 10
+print(the_boolean)
