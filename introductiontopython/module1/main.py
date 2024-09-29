@@ -62,3 +62,16 @@ print(extra_space)
 print(extra_space.strip())
 print(extra_space.lstrip())
 print(extra_space.rstrip())
+
+first_name = "richard"
+last_name = "harding"
+age = 35
+
+print(f"The first name is {first_name} and the last name is {last_name}, the age is {age}")
+
+numbers = {"first_number": 1, "second_number": 2, "third_number": 3, "fourth_number": 4, "fifth_number": 5}  
+print(numbers)
+
+for key, value in numbers.items():
+    print(f"The key is {key} and the value is {value}")
+    
