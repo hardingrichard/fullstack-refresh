@@ -56,3 +56,9 @@ print(type(the_boolean))
 
 the_boolean = 20 > 10
 print(the_boolean)
+
+extra_space = "     hello     "
+print(extra_space)
+print(extra_space.strip())
+print(extra_space.lstrip())
+print(extra_space.rstrip())
