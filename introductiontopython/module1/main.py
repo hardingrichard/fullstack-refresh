@@ -78,6 +78,9 @@ for key, value in numbers.items():
 var_one, var_two, var_three = 10, 20, 30
 print(var_one, var_two, var_three)
 
+a, b, c, d = (33, "car", 2.158, "hey")
+print(a, b, c, d)
+
 variables = {"one": 33, "two": "car", "three": 2.158, "four": "hey"}
 for key, value in variables.items():
     print(f"The key is {key} and the value is {value}")
