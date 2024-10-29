@@ -169,4 +169,9 @@ if "purple" in colour_list:
     print("purple is in the list")
 else:
     print("purple is not in the list")
-    
+
+print(len(colour_list))
+print(len(num_list))
+print(len(colour_list) + len(num_list))
+
+print(len(employees))
