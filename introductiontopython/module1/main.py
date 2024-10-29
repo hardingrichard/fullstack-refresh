@@ -107,3 +107,37 @@ print(employees)
 
 employees = ["jess"] + employees
 print(employees)
+
+employees.insert(3, "dave")
+print(employees)
+
+employees.append("sue")
+print(employees)
+
+employees.remove("sarah")
+print(employees)
+
+# pop removes the last item in the list
+employees.pop()
+print(employees)
+
+employees.pop(3)
+print(employees)
+
+employees.insert(1, "dave")
+print(employees)
+
+# extend adds multiple items to the list
+employees.extend(["tim", "bob"])
+print(employees)
+
+# sort sorts the list in alphabetical order
+employees.sort()
+print(employees)
+
+num_list = [1, 2, 3, 4, 5]
+colour_list = ["red", "blue", "green", "yellow", "orange"]
+
+print(num_list)
+print(colour_list)
+print(num_list + colour_list)
