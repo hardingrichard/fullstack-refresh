@@ -114,16 +114,6 @@ print(employees)
 employees.append("sue")
 print(employees)
 
-employees.remove("sarah")
-print(employees)
-
-# pop removes the last item in the list
-employees.pop()
-print(employees)
-
-employees.pop(3)
-print(employees)
-
 employees.insert(1, "dave")
 print(employees)
 
@@ -134,6 +124,28 @@ print(employees)
 # sort sorts the list in alphabetical order
 employees.sort()
 print(employees)
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# remove removes the first item in the list with the value
+# Use remove() when deleting an item by value rather than its position.
+employees.remove("sarah")
+print(employees)
+
+# pop removes the last item or index in the list
+# use pop() when removing item by position than value for use with processing or adding to another list.
+employees.pop()
+print(employees)
+
+employees.pop(3)
+print(employees)
+
+# del removes the item at the index
+# use del when cleaning up to delete item by its position rather than its value.
+del employees[5]
+print(employees)
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 num_list = [1, 2, 3, 4, 5]
 colour_list = ["red", "blue", "green", "yellow", "orange"]
