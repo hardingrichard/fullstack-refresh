@@ -95,3 +95,9 @@ print(employees[1:3])
 print(employees[:3])
 print(employees[2:])
 print(employees[0] + " Is the best employee")
+
+employees[0] = "mark"
+print(employees)
+
+employees[4] = "rich"
+print(employees)
