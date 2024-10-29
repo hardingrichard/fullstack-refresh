@@ -84,3 +84,10 @@ print(a, b, c, d)
 variables = {"one": 33, "two": "car", "three": 2.158, "four": "hey"}
 for key, value in variables.items():
     print(f"The key is {key} and the value is {value}")
+
+employees = ["richard", "james", "sarah", "jane", "john"]
+print(employees)
+print(employees[1])
+print(employees[4])
+print(employees[-1])
+print(employees[-3])
