@@ -153,3 +153,20 @@ colour_list = ["red", "blue", "green", "yellow", "orange"]
 print(num_list)
 print(colour_list)
 print(num_list + colour_list)
+
+for x in num_list:
+    print(x)
+    
+for x in colour_list:
+    print(x)
+    
+if "blue" in colour_list:
+    print("blue is in the list")
+else:
+    print("blue is not in the list")
+
+if "purple" in colour_list:
+    print("purple is in the list")
+else:
+    print("purple is not in the list")
+    
