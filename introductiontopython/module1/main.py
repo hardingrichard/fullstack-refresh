@@ -101,3 +101,9 @@ print(employees)
 
 employees[4] = "rich"
 print(employees)
+
+employees = employees + ["john", "jim"]
+print(employees)
+
+employees = ["jess"] + employees
+print(employees)
