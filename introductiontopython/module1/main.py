@@ -188,3 +188,15 @@ print(colour_list)
 
 # sorted() returns a new list with the items in the list in alphabetical order
 print(sorted(colour_list))
+
+slice_example = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(slice_example)
+
+# slices the list from index 1 to 3
+print(slice_example[1:3])
+
+print(slice_example[4:7])
+
+# loops through the list from index 2 to 8
+for example in slice_example[2:8]:
+    print(example)
