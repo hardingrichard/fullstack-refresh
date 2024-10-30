@@ -200,3 +200,7 @@ print(slice_example[4:7])
 # loops through the list from index 2 to 8
 for example in slice_example[2:8]:
     print(example)
+
+# loops through the list from index 0 to 7 in increments of 2
+# [start:stop:increment]
+print(slice_example[:7:2])
