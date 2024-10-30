@@ -183,3 +183,8 @@ print(len(num_list))
 print(len(colour_list) + len(num_list))
 
 print(len(employees))
+
+print(colour_list)
+
+# sorted() returns a new list with the items in the list in alphabetical order
+print(sorted(colour_list))
