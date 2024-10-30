@@ -125,6 +125,14 @@ print(employees)
 employees.sort()
 print(employees)
 
+# Reverses alhpabetical order
+employees.sort(reverse=True)
+print(employees)
+
+# Reverses the list
+employees.reverse()
+print(employees)
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # remove removes the first item in the list with the value
