@@ -204,3 +204,37 @@ for example in slice_example[2:8]:
 # loops through the list from index 0 to 7 in increments of 2
 # [start:stop:increment]
 print(slice_example[:7:2])
+
+
+x = 5 + 3
+print(x)
+
+x = 3 * 8
+print(x)
+
+x = 10 / 2
+print(x)
+
+x = 10 - 2
+print(x)
+
+x = 10 % 3
+print(x)
+
+a = 3
+b = 7
+x = a + b
+print(x)
+
+x = a*b
+print(x)
+
+x = a ** b
+print(x)
+
+x = a / b
+print(x)
+
+x = b / a
+print(int(x))
+print(round(x))
