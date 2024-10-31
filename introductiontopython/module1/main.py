@@ -238,3 +238,12 @@ print(x)
 x = b / a
 print(int(x))
 print(round(x))
+
+#  a = a + 5
+a += 5
+print(a)
+
+#  z = z - 5    
+z = 20
+z -= 5
+print(z)
