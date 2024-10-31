@@ -239,10 +239,12 @@ x = b / a
 print(int(x))
 print(round(x))
 
+# add and assign
 #  a = a + 5
 a += 5
 print(a)
 
+# subtract and assign
 #  z = z - 5    
 z = 20
 z -= 5
