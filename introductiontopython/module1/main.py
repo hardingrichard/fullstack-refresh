@@ -288,4 +288,4 @@ print (d > 20 or d < 20)
 
 # Not logic operator
 print (not(a > 1 and a < 4))
-print (not(b > 2 and a < 4))
+print (not(b > 2 and b < 4))
