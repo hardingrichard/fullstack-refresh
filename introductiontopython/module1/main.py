@@ -249,3 +249,11 @@ print(a)
 z = 20
 z -= 5
 print(z)
+
+a = 10
+b = 12
+c = 8
+d = 8
+
+print(a == b)
+print(c == d)
