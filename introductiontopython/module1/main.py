@@ -255,13 +255,22 @@ b = 12
 c = 8
 d = 8
 
+# Equal to
 print(a == b)
 print(c == d)
 
+# Not equal to
 print (a != b)
 print ( c != d)
 
+# Greater than / Less than
 print (a > b)
 print (c < b)
 print (a > c)
 print (d > c)
+
+# Greater than or equal to / Less than or equal to
+print (a >= b)
+print (c <= b)
+print (a >= c)
+print (d >= c)
