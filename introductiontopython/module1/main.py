@@ -274,3 +274,18 @@ print (a >= b)
 print (c <= b)
 print (a >= c)
 print (d >= c)
+
+a = 2
+b = 4
+c = 8
+d = 16
+
+# and / or logic operators
+print (a > 1 and a < 4)
+print (b < 3 and a > 4)
+print (c > 7 or c < 12)
+print (d > 20 or d < 20)
+
+# Not logic operator
+print (not(a > 1 and a < 4))
+print (not(b > 2 and a < 4))
