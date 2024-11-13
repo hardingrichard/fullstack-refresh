@@ -257,3 +257,6 @@ d = 8
 
 print(a == b)
 print(c == d)
+
+print (a != b)
+print ( c != d)
