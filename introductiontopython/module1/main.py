@@ -260,3 +260,8 @@ print(c == d)
 
 print (a != b)
 print ( c != d)
+
+print (a > b)
+print (c < b)
+print (a > c)
+print (d > c)
